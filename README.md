@@ -1,16 +1,69 @@
-# React + Vite
+# ☕ Cafeteria Ronronar
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A Cafeteria Ronronar é um projeto desenvolvido em React com a proposta de criar uma página para uma cafeteria temática de gatos. O site reúne informações sobre o espaço, produtos, adoção e outros conteúdos relacionados à cafeteria.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido como uma forma de colocar em prática conhecimentos de React, CSS, componentização e organização de uma aplicação frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Site
 
-## React Compiler
+[Conheça a Cafeteria Ronronar](https://projetofinalpixel-y2zg.vercel.app/#inicio)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🐱 O que você encontra no site
 
-## Expanding the Oxlint configuration
+- Apresentação da cafeteria
+- Cardápio
+- Área de adoção
+- Depoimentos
+- Estatísticas
+- Parceiros
+- Informações sobre o espaço
+- Rodapé com informações e contatos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tecnologias
+
+- React
+- JavaScript
+- CSS
+- HTML
+- Vite
+
+## 📁 Organização
+
+O projeto foi dividido em componentes para facilitar a manutenção e deixar cada parte da página separada.
+
+### `src/`
+
+É onde fica a maior parte do código da aplicação.
+
+### `src/Components/`
+
+Contém os componentes utilizados na página, como `Header`, `Hero`, `Cardapio`, `Adocao`, `Depoimentos`, `Parceiros`, `Sobre`, `Estatisticas` e `Footer`.
+
+Cada componente possui seu arquivo `.jsx` e, quando necessário, seu arquivo `.css`.
+
+### `src/App.jsx`
+
+Responsável por reunir os componentes e montar a página principal.
+
+### `src/main.jsx`
+
+Faz a inicialização da aplicação React.
+
+### `src/index.css`
+
+Contém as regras de estilo gerais da aplicação.
+
+### `public/`
+
+Armazena os arquivos públicos utilizados pelo site, principalmente as imagens presentes em `public/img/`.
+
+## 💻 Desenvolvimento
+
+Durante a construção da página foram utilizados conceitos de componentização, estilização com CSS e organização de uma aplicação React utilizando Vite.
+
+## 👩🏻‍💻 Autoria
+Isabela de Conto Moraes
+
+**Isabela de Conto Moraes**
+
+Projeto desenvolvido para fins acadêmicos.
