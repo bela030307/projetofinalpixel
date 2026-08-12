@@ -114,7 +114,7 @@ function Adocao() {
               
               <button
                 className="adote"
-                onclick={() => window.open('https://wa.me/5548999999999?text=Olá,%20gostaria%20de%20adotar%20um%20gato!', '_blank')}
+                onClick={() => window.open('https://wa.me/5548999999999?text=Olá,%20gostaria%20de%20adotar%20um%20gato!', '_blank')}
               >
                 Quero adotar!
               </button>
