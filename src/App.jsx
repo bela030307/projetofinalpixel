@@ -6,7 +6,7 @@ import Cardapio from './Components/Cardapio/cardapio'
 import Depoimentos from './Components/Depoimentos/depoimentos'
 import Parceiros from './Components/Parceiros/parceiros'
 import Footer from './Components/Footer/footer'
-import Adocao from './Components/Adocao/Adocao'
+import Adocao from './Components/Adocao/adocao'
 
 function App() {
 
