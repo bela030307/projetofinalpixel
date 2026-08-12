@@ -1,0 +1,70 @@
+.sobre {
+  background: #FDF4F0;
+  height: 476px;
+}
+
+.sobre h1 {
+  font-family: 'Playfair Display', serif;
+  color: #e58f8f;
+  font-size: 36px;
+  margin-left: 78px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.conteudo-sobre {
+  display: flex;
+  background: #FDF4F0;
+  gap: 50px;
+  margin-left: 78px;
+  align-items: center;
+}
+
+.foto-cafe {
+  width: 545px;
+  height: 306px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.foto-cafe:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+}
+
+.cortina-reveal {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.cortina-reveal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #F2C9C5;
+  transform: scaleX(1);
+  transform-origin: right;
+  transition: transform 0.9s ease;
+}
+
+.cortina-reveal.visivel::after {
+  transform: scaleX(0);
+}
+
+.texto-sobre h2 {
+  font-weight: normal;
+  width: 679px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20.84px;
+  margin-bottom: 30px;
+}
+
+.texto-sobre p {
+  width: 400px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17.93px;
+  line-height: 1.0;
+}

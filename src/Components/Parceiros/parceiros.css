@@ -1,0 +1,30 @@
+.parceiros {
+  background: #FDF4F0;
+  margin-bottom: 40px;
+}
+
+.parceiros h2 {
+  font-family: 'Sacramento', serif;
+  font-size: 64px;
+  text-align: left;
+  color: black;
+  margin-left: 120px;
+  font-weight: 400;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.logos img {
+  display: block;
+  height: auto;
+}
+
+.parceiros img {
+  padding: 0;
+  background: #FDF4F0;
+}

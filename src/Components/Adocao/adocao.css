@@ -1,0 +1,162 @@
+.adocao {
+  background: #FDF4F0;
+  padding: 90px 100px 0;
+  align-items: center;
+}
+
+.adocao h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  color: #F58B8B;
+  margin-bottom: 30px;
+}
+
+.texto-adocao {
+  max-width: 1200px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.processo-adocao {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 90px;
+}
+
+.foto-adocao {
+  width: 500px;
+  border: 18px solid #F2C9C5;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.foto-adocao:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+}
+
+.passos {
+  width: 450px;
+  margin-top: -30px;
+}
+
+.passos h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.passos ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: passo;
+}
+
+.passos li {
+  counter-increment: passo;
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.passos li::before {
+  content: counter(passo);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #F2C9C5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.gatinhos {
+  background: #FDF4F0;
+  padding: 10px 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.titulo-gatos {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.lista-gatos {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.gato {
+  width: 237px;
+  background: #F2C9C5;
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.gato:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+}
+
+.gato img {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.gato h3 {
+  margin: 18px 0 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.gato p {
+  margin: 4px 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+.gato button {
+  margin-top: auto;
+  width: 169px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  background: #F58B8B;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.gato button:hover {
+  background-color: #F8ECE3;
+  color: black;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.gato p:last-of-type {
+  margin-bottom: 20px;
+}

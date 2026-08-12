@@ -1,0 +1,48 @@
+.footer {
+  background: #E1A29C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 80px;
+}
+
+.redes {
+  width: 320px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.redes img {
+  width: 330px;
+  height: 104px;
+}
+
+.info {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  margin-left: 100px;
+}
+
+.info p {
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.logo-footer {
+  width: 320px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-footer img {
+  margin-top: 10px;
+  width: 200px;
+}
