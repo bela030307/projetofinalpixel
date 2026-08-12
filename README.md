@@ -64,6 +64,4 @@ Durante a construção da página foram utilizados conceitos de componentizaçã
 ## 👩🏻‍💻 Autoria
 Isabela de Conto Moraes
 
-**Isabela de Conto Moraes**
-
 Projeto desenvolvido para fins acadêmicos.
